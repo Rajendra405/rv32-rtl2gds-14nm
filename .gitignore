@@ -1,0 +1,44 @@
+# --- licensed / proprietary data: never publish ---
+*.gds
+*.gds.gz
+*.oas
+*.spef
+*.db
+*.lib
+*.ndm
+*.nlib/
+*.ddc
+*.lef
+*.tf
+*.itf
+*.tluplus
+*.map
+*.cdl
+*.rs
+pnr/outputs/
+pv/
+
+# --- tool databases, logs, scratch ---
+syn/WORK/
+syn/alib-*/
+syn/outputs/*.ddc
+*.svf
+*.log
+*.vpd
+*.vcd
+*.fsdb
+command.log
+default.svf
+csrc/
+simv
+simv.daidir/
+ucli.key
+verdiLog/
+novas*
+*.mr
+*.pvl
+*.syn
+icc2_output.txt
+
+# --- downloaded third-party repo (we keep only rtl/picorv32.v) ---
+ext_picorv32/
