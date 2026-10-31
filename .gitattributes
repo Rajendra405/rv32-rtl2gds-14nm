@@ -1,0 +1,2 @@
+# PicoRV32 is third-party (YosysHQ, ISC license) - exclude it from the language stats
+rtl/picorv32.v linguist-vendored
